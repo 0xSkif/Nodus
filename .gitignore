@@ -1,0 +1,29 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+
+# PyInstaller / Setuptools
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# Editor Settings (VS Code)
+.vscode/
+*.code-workspace
+
+
+# OS Logs and Temporary Files
+*.log
+.DS_Store
+Thumbs.db

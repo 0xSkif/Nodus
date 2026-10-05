@@ -1,0 +1,24 @@
+[project]
+name = "nodus"
+description = "Nodus is a tool designed to automate the creation, navigation, and bulk management of directories and files."
+version = "0.1.0"
+authors = [{ name = "0xSkif", email = "gustavochucre.contato@gmail.com" }]
+dependencies = [
+    "InquirerPy>=0.3.4",
+    "rich>=13.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/0xSkif/nodus"
+Author = "https://github.com/0xSkif"
+
+[project.scripts]
+nodus = "nodus.main:menu"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nodus*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
